@@ -13,7 +13,7 @@ Running Environment: Windows 7, Matlab R2013a
 -----------------------------------------------------
 Reproduce the experimental results for Outex_TC_00010
 1. Download the Outex_TC_00010 dataset from http://www.outex.oulu.fi/index.php?page=classification
-    In the file 'Outex_TC_00010', the sub-file ¡®images¡¯ includes all the training and test images, and the sub-file '000' incudes the documents specifying the split of the training and test sets. 
+    In the file 'Outex_TC_00010', the sub-file 'images' includes all the training and test images, and the sub-file '000' incudes the documents specifying the split of the training and test sets. 
 2. Run demo_TC10.m to reproduce the reported results.
    --makeGDfilters.m: generate Gaussian derivative filters Gx, Gy, Gxx, Gxy, and Gyy.
    --K, C, Ls and Lr: the parameters involved in Eqns. (14)-(16).
@@ -22,7 +22,7 @@ Reproduce the experimental results for Outex_TC_00010
       ----gen_binary_codes.m: quantize the features {g, d}.
       ----H1, H2, H3: histograms for LETRIST_ASC1, LETRIST_ASC2 and LETRIST_FSC.
    --ReadOutexTxt.m: obtain image IDs and class IDs for the Outex dataset.
-   --cal_AP.m: texture classification using the nearest-neighborhood(NN) classifier.
+   --cal_AP.m: texture classification using the nearest-neighborhood (NN) classifier.
       ----distMATChiSquare.m: compute the chi-square distance between training and test samples.
       ----ClassifyOnNN.m: compute the classification accuracy using the NN classifier.
 
@@ -34,7 +34,7 @@ Reproduce the experimental results for Outex_TC_00012
 
 --------------------------------------------
 Reproduce the experimental results for CURET
-1. Download the CURET dataset from http://www.robots.ox.ac.uk/~vgg/research/texclass/index.html 
+1. Download the CURET dataset from http://www.robots.ox.ac.uk/~vgg/research/texclass/index.html
 2. Store 61 classes of texture images (each class corresponds to one sub-file, e.g., 'sample01' and 'sample02') in a root file 'CURET'. 
 3. Run demo_CURET.m to reproduce the reported results.
    --get_im_label.m: generate the image labels.
