@@ -23,10 +23,10 @@ Reproduce the experimental results for Outex_TC_00010
       ----H1, H2, H3: histograms for LETRIST_ASC1, LETRIST_ASC2 and LETRIST_FSC.
    --ReadOutexTxt.m: obtain image IDs and class IDs for the Outex dataset.
    --cal_AP.m: texture classification using the nearest-neighborhood (NN) classifier.
-      ----distMATChiSquare.m: compute the chi-square distance between training and test samples.
+      ----distMATChiSquare.m: compute the chi-square distance between the training and test samples.
       ----ClassifyOnNN.m: compute the classification accuracy using the NN classifier.
 
-----------------------------------------------------------------
+-----------------------------------------------------
 Reproduce the experimental results for Outex_TC_00012
 1. Download the Outex_TC_00012 dataset from http://www.outex.oulu.fi/index.php?page=classification
    In the file 'Outex_TC_00012', the sub-file 'images' includes all the training and test images for TC12t and TC12h. The sub-file '000' incudes the documents specifying the split of the training and test sets for TC12t; the sub-file '001' incudes the documents specifying the split of the training and test sets for TC12h. 
