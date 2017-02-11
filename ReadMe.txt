@@ -26,10 +26,10 @@ Reproduce the experimental results for Outex_TC_00010
       ----distMATChiSquare.m: compute the chi-square distance between training and test samples.
       ----ClassifyOnNN.m: compute the classification accuracy using the NN classifier.
 
---------------------------------------------
+----------------------------------------------------------------
 Reproduce the experimental results for Outex_TC_00012
 1. Download the Outex_TC_00012 dataset from http://www.outex.oulu.fi/index.php?page=classification
-  In the file 'Outex_TC_00012', the sub-file 'images' includes all the training and test images for TC12t and TC12h. The sub-file '000' incudes the documents specifying the split of the training and test sets for TC12t; the sub-file '001' incudes the documents specifying the split of the training and test sets for TC12h. 
+   In the file 'Outex_TC_00012', the sub-file 'images' includes all the training and test images for TC12t and TC12h. The sub-file '000' incudes the documents specifying the split of the training and test sets for TC12t; the sub-file '001' incudes the documents specifying the split of the training and test sets for TC12h. 
 2. Run demo_TC12t.m and demo_TC12h.m to reproduce the reported results.
 
 --------------------------------------------
