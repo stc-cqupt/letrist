@@ -20,7 +20,7 @@ Reproduce the experimental results for Outex_TC_00010
    --getFeatsCodes.m: generate the LETRIST feature descriptor.
       ----atan_vq.m: quantize the features {s, r}.
       ----gen_binary_codes.m: quantize the features {g, d}.
-      ----H1, H2, H3: histograms for LETRIST_ASC1, LETRIST_ASC2 and LETRIST_FSC.
+      ----H1, H2, and H3: histograms for LETRIST_ASC1, LETRIST_ASC2 and LETRIST_FSC.
    --ReadOutexTxt.m: obtain image IDs and class IDs for the Outex dataset.
    --cal_AP.m: texture classification using the nearest-neighborhood (NN) classifier.
       ----distMATChiSquare.m: compute the chi-square distance between the training and test samples.
