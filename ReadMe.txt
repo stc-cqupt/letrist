@@ -3,7 +3,7 @@ LETRIST: Locally Encoded Transform Feature Histogram for Rotation-Invariant Text
 by Tiecheng Song, Hongliang Li, Fanman Meng, Qingbo Wu, and Jianfei Cai, 
 IEEE TCSVT, submitted, 
 stc1984@126.com
-version 1.0 (2016.11)
+version 1.0 (2017.2)
 
 =====================================
         How to use the code
