@@ -1,7 +1,7 @@
 The source code is for the paper:
 LETRIST: Locally Encoded Transform Feature Histogram for Rotation-Invariant Texture Classification, 
 by Tiecheng Song, Hongliang Li, Fanman Meng, Qingbo Wu, and Jianfei Cai, 
-IEEE TCSVT, submitted, 
+IEEE TCSVT, 2017,
 tggwin@gmail.com
 version 1.0 (2017.2)
 
